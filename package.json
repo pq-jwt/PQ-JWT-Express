@@ -1,0 +1,27 @@
+{
+  "name": "@pq-jwt/express",
+  "version": "1.0.0",
+  "description": "Express.js middleware for @pq-jwt/core post-quantum JWT authentication. Drop-in pqAuth() middleware with typed errors, role guards, and custom extractors.",
+  "type": "module",
+  "main": "./src/index.mjs",
+  "module": "./src/index.mjs",
+  "exports": {
+    ".": {
+      "types":   "./src/index.d.ts",
+      "import":  "./src/index.mjs",
+      "default": "./src/index.mjs"
+    }
+  },
+  "types": "./src/index.d.ts",
+  "files": ["src/", "README.md", "LICENSE", "CHANGELOG.md"],
+  "scripts": { "test": "node test/test.mjs" },
+  "keywords": ["express","jwt","middleware","post-quantum","ml-dsa","authentication","pqc","nist","fips-204","pq-jwt"],
+  "author": { "name": "Sachin Ruhil", "email": "sachinruhil11@gmail.com", "url": "https://github.com/ruhil6789" },
+  "license": "MIT",
+  "peerDependencies": { "@pq-jwt/core": ">=1.0.0" },
+  "devDependencies": { "@pq-jwt/core": "^1.0.0", "express": "^4.18.0" },
+  "engines": { "node": ">=20.0.0" },
+  "repository": { "type": "git", "url": "https://github.com/pq-jwt/PQ-JWT-Express.git" },
+  "bugs": { "url": "https://github.com/pq-jwt/PQ-JWT-Express/issues" },
+  "homepage": "https://pq-jwt.github.io"
+}
