@@ -1,6 +1,6 @@
 {
   "name": "@pq-jwt/express",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "Express.js middleware for @pq-jwt/core post-quantum JWT authentication. Drop-in pqAuth() middleware with typed errors, role guards, and custom extractors.",
   "type": "module",
   "main": "./src/index.mjs",
