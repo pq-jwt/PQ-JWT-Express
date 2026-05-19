@@ -1,7 +1,13 @@
 /**
  * @package     @pq-jwt/express
+ * @author      Sachin Ruhil <sachinruhil11@gmail.com>
  * @version     0.0.1
  * @license     MIT
+ * @description Express.js middleware for @pq-jwt/core post-quantum JWT authentication.
+ * @copyright   2026 Sachin Ruhil. All rights reserved.
+ * @see         https://github.com/pq-jwt/PQ-JWT-Express
+ *
+ * This version implements post-quantum JWT verification middleware for Express.
  */
 
 import type { Request, Response, NextFunction } from 'express';

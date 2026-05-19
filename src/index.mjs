@@ -4,10 +4,10 @@
  * @version     0.0.1
  * @license     MIT
  * @description Express.js middleware for @pq-jwt/core post-quantum JWT authentication.
- *              Turns 15 lines of boilerplate into a single pqAuth() call.
- * @copyright   2025 Sachin Ruhil. All rights reserved.
+ * @copyright   2026 Sachin Ruhil. All rights reserved.
  * @see         https://github.com/pq-jwt/PQ-JWT-Express
- * @see         NIST FIPS 204 https://doi.org/10.6028/NIST.FIPS.204
+ *
+ * This version implements post-quantum JWT verification middleware for Express.
  */
 
 import {
