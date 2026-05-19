@@ -1,7 +1,7 @@
 /**
  * @package     @pq-jwt/express
  * @author      Sachin Ruhil <sachinruhil11@gmail.com>
- * @version     0.0.1
+ * @version     0.0.2
  * @license     MIT
  * @description Express.js middleware for @pq-jwt/core post-quantum JWT authentication.
  * @copyright   2026 Sachin Ruhil. All rights reserved.
