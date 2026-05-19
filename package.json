@@ -23,5 +23,8 @@
   "engines": { "node": ">=20.0.0" },
   "repository": { "type": "git", "url": "https://github.com/pq-jwt/PQ-JWT-Express.git" },
   "bugs": { "url": "https://github.com/pq-jwt/PQ-JWT-Express/issues" },
-  "homepage": "https://pq-jwt.github.io"
+  "homepage": "https://pq-jwt.github.io",
+  "publishConfig": {
+    "access": "public"
+  }
 }
